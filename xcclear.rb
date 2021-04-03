@@ -9,5 +9,9 @@ class Xcclear < Formula
     def install
         bin.install "xcclear"
     end
+    
+    test do
+        system "#{bin}/xcclear", "--version"
+    end
 
 end
