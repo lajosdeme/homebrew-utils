@@ -10,7 +10,4 @@ class Xcclear < Formula
         bin.install "xcclear"
     end
 
-    test do
-        system "#{bin}/xcclear", "--version"
-    end
 end
