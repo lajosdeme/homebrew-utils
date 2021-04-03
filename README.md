@@ -9,5 +9,5 @@ This repo simplifies the installation of my command line utilities:
 
 ```
 (optional) brew update
-brew install xcclear
+brew install lajosdeme/utils/xcclear
 ```
